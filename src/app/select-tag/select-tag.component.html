@@ -1,0 +1,23 @@
+<div class="modal-header">
+  <h4 class="modal-title">Hi there!</h4>
+  <button type="button" class="close" aria-label="Close" (click)="activeModal.dismiss('Cross click')">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+<div class="modal-body">
+  <p>Hello, {{name}}!</p>
+  <p>The Parliament of the Commonwealth of Australia, variously referred to as the Australian Parliament, the Commonwealth Parliament or the Federal Parliament, is the legislative branch of the government of Australia. It consists of three elements: the Queen of Australia, the Senate and the House of Representatives.[1] The Queen is represented by the Governor-General.[2] The combination of two elected Houses, in which the members of the Senate represent the six States and the two self-governing Territories while the members of the House represent electoral divisions according to population, is modelled on the United States Congress. Through both Houses, however, there is a fused executive, drawn from the Westminster System.[3]
+    
+    The upper house, the Senate, consists of 76 members: twelve for each state, and two each for the Northern Territory and the Australian Capital Territory. Senators are elected using the single transferable vote proportional representation system and as a result, the chamber features a multitude of parties vying for power.[4] The governing party or coalition has not held a majority in the Senate since 1981 (except between 2005-2008) and usually needs to negotiate with other parties and Independents to get legislation passed.[5]
+    
+    The lower house, the House of Representatives, currently consists of 150 members, each elected from single member constituencies, known as electoral divisions (commonly referred to as "electorates" or "seats") using full-preference Instant-runoff voting.[6][7] This tends to lead to the chamber being dominated by two major parties, the Liberal/National Coalition and the Labor Party. The government of the day must achieve the confidence of this House in order to gain and remain in power.
+    
+    Although elections can be called early, each 3 years the full House of Representatives and half of the Senate is dissolved and goes up for reelection. A deadlock breaking mechanism known as a double dissolution can be used to dissolve the full Senate as well as the House in the event that the Upper House twice refuses to pass a piece of legislation passed by the Lower House.[8]
+    
+    The two Houses meet in separate chambers of Parliament House (except in a rare joint sitting) on Capital Hill in Canberra, Australian Capital Territory.</p>
+</div>
+<div class="modal-footer">
+  <button type="button" class="btn btn-outline-dark" (click)="activeModal.close('Close click')">Close</button>
+  <button type="button" class="btn btn-secondary" (click)="testclick('teststring')">Testclick</button>
+</div>
+

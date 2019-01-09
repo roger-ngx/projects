@@ -1,0 +1,22 @@
+
+<!--<mat-form-field>-->
+  <!--<mat-select placeholder="Money Exchange" [(ngModel)]="selectedValue" (change)="changeTheMoneyExchange($event)" name="food">-->
+    <!--<mat-option *ngFor="let money of money_exchange" [value]="money.value">-->
+      <!--{{money.viewValue}}-->
+    <!--</mat-option>-->
+  <!--</mat-select>-->
+<!--</mat-form-field>-->
+<app-chart-menu></app-chart-menu>
+<chart [options]="options" (load)="saveInstance($event.context)"></chart>
+
+<!--<mat-tab-group headerPosition="below" (selectedTabChange)="tabChanged($event)">
+  <mat-tab label="Realtime">
+    <chart type="StockChart" [options]="options" (load)="saveInstance($event.context)"></chart>
+  </mat-tab>
+  <mat-tab label="Historical">
+    <chart type="StockChart" [options]="options" (load)="saveInstance($event.context)"></chart>
+  </mat-tab>
+</mat-tab-group>-->
+<!-- <button type="button" class="btn btn-primary" (click)=showDialog()>
+  Launch demo modal
+</button> -->
